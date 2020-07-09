@@ -1,0 +1,92 @@
+body,html{
+  height:100vh;
+  margin:0px;
+  font-size:16px;
+  font-family:"Times New Roman" sans-serif;
+  font-weight:400;
+  line-height:1.5em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+  position:relative;
+  opacity:0.6;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*fixed=parallax 
+  scroll=normal
+  */
+  background-attachment: fixed;              /*scrolling effect for image*/
+}
+
+.pimg1{
+  background-image: url('gallaxy.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image: url('greenlight.jpg');
+  min-height:500px;
+}
+
+.pimg3{
+  background-image: url('moon.jpg');
+  min-height:550px;
+}
+
+.pimg4{
+  background-image: url('gallaxy2.jpg');
+  min-height:550px;
+}
+
+.section{
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.section-light{
+  background-color:white;
+  color:#666;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position: absolute;
+  top:50%;
+  width:100%;
+  text-align: center;
+  color:#000;
+  font-size: 22px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+/*background border for 1st image content*/
+.ptext .border{
+  background-color: rgb(43, 19, 1);
+  color:#fff;
+  padding:20px;
+}
+
+
+/*for image 2 and 3 content*/
+.ptext .border.trans{
+  background-color:transparent;
+  color:rgb(2, 255, 57);
+}
+
+
+/*for last(4th) image content*/
+.ptext .border.change{
+  background-color:rgb(54, 6, 6);
+  color:rgb(251, 255, 2);
+}
+
+
+
